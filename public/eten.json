@@ -91,5 +91,8 @@
   {"id":93, "name":"Pisang goreng"},
   {"id":101, "name":"Bulgogi beef"},
   {"id":105, "name":"Sweet & sour cucumber"},
-  {"id":106, "name":"Sweet bun"}
+  {"id":106, "name":"Sweet bun"},
+  {"id":200, "name":"Trek een bak!"},
+  {"id":201, "name":"Vieux!!!"},
+  {"id":202, "name":"Toetje naar keuze"}
 ]

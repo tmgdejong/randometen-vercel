@@ -55,8 +55,12 @@ const RandomEten: React.FC = () => {
       >
         {isCycling ? 'Nadenken...' : 'Randomize'}
       </button>
-      <div className={`text-3xl font-cursive`}>
-        {selectedItem !== null ? `${selectedItem.id}: ${selectedItem.name}` : 'Klik voor random eten!'}
+      <div className={`text-xl font-cursive text-center md:text-3xl`}>
+        {selectedItem !== null ? 
+          (selectedItem.id < 110 ? 
+            `${selectedItem.id}: ${selectedItem.name}` 
+            : `${selectedItem.name}`) 
+          : 'Klik voor random eten!'}
       </div>
       {selectedItem !== null && !isCycling ? (
         <Confetti
