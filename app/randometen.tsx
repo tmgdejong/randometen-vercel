@@ -16,7 +16,7 @@ const RandomEten: React.FC = () => {
 
   useEffect(() => {
     // Fetch items from JSON file (replace 'your-json-file.json' with the actual file path)
-    fetch('/eten.json')
+    fetch('/etentriavium.json')
       .then((response) => response.json())
       .then((data) => setItems(data))
       .catch((error) => console.error('Error fetching JSON:', error));
